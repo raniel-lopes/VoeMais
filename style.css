@@ -1,0 +1,16 @@
+input[type="date"] {
+      padding: 10px;
+      border: 2px solid #ff0000; /* Cor da borda */
+      border-radius: 5px; /* Bordas arredondadas */
+      background-color: #f9f9f9; /* Cor de fundo */
+      font-size: 16px; /* Tamanho da fonte */
+      color: #333; /* Cor do texto */
+      outline: none; /* Remove o contorno */
+      cursor: pointer; /* Mostra o cursor de ponteiro */
+    }
+
+    /* Estiliza o campo quando focado */
+    input[type="date"]:focus {
+      border-color: #ff0000; /* Cor da borda ao focar */
+      box-shadow: 0 0 5px rgba(255, 0, 0, 0.8); /* Sombra ao focar */
+    }

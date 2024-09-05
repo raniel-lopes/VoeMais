@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VoeMais</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
@@ -31,7 +32,33 @@
                     <label for="roundtrip">Round Trip</label>
                     <input type="radio" id="multicity">
                     <label for="oneway">Multi-city</label>
+                    
+                    <label for="cityfrom">From</label>
+                   <select name="cityfrom">
+                        <option value="salvador">Salvador</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="rio">Rio de Janeiro</option>
+                    </select> 
+
+                    <label for="cityto">To</label>
+                   <select name="cityto">
+                        <option value="salvador">Salvador</option>
+                        <option value="saopaulo">São Paulo</option>
+                        <option value="rio">Rio de Janeiro</option>
+                    </select> 
+
+                    <label for="cityto">To</label>
+                    <select name="cityto">
+                         <option value="salvador">Salvador</option>
+                         <option value="saopaulo">São Paulo</option>
+                         <option value="rio">Rio de Janeiro</option>
+                     </select>
+                     
+                     <label for="date">Departure date</label>
+                     <input type="date" id="datetravel" name="datetravel">
+                     <input type="submit" name="booknow" value="Book now!">
                 </form>
+                <h4>Utravel</h4>
             </div>
             <div id="check">
                 <h3>Check your flight status</h3>
@@ -40,6 +67,7 @@
         <section id="alert"></section>
         <section id="location"></section>
         <section id="discover"></section>
+
         <footer></footer>
     </main>
 </body>
